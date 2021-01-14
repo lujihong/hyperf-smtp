@@ -1,0 +1,31 @@
+{
+    "name": "lujihong/hyperf-smtp",
+    "description": "hyperf mailer component",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "lujihong",
+            "email": "382217590@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "ext-swoole": "^4.2.6",
+        "easyswoole/spl": "^1.1",
+        "easyswoole/utility": "^1.0"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasySwoole\\Smtp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasySwoole\\Smtp\\Test\\": "tests/"
+        }
+    }
+}
